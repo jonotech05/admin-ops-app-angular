@@ -5,7 +5,7 @@ on:
   pull_request:
     branches:
       - main
-Jobs:
+jobs:
   build-action:
     name: build and deploy
     runs-on: ubuntu-latest
