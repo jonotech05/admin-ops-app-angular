@@ -28,3 +28,8 @@ jobs:
 
       - name: run my action
         uses: ./
+<<<<<<< HEAD
+=======
+        with:
+          name: "JONO TECH"
+>>>>>>> 4e1bd41 (define and use input)

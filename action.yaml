@@ -4,6 +4,12 @@ version: '1.0.0'
 author: 'JONO TECH'
 license: 'MIT'
 
+inputs:
+  name:
+    description: 'The name to greet'
+    required: false
+    default: 'Jono Tech Solutions'
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
